@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<!--
+		CS-133S-01 - JavaScript
+		Miki Marshall
+		02/28/2012
+		"On My Own" Project
+		
+		Future Investment Value Calculator.
+		
+		Notes:	Added two number formatting functions to my commonlib.js,
+				  toNumber(value) to get numbers (unformatted) from a string,
+				  toCurrency(value) to format numbers as currency.
+				  
+-->
+
+		<title>Miki Marshall: Homework #6B</title>
+		
+		<!-- The stylesheet -->
+		<link rel="stylesheet" type="text/css" href="hw6b.css">
+
+		<!-- My library of common Javascript functions -->
+		<script type="text/javascript" src="commonlib.js">
+		</script>
+
+		<!-- Javascript functions for this page -->
+		<script type="text/javascript" src="hw6b.js">
+		</script>
+	</head>
+
+	<body>
+		<!-- Heading & subheadings -->
+		<div class="frame" id="topframe">
+			<div id="heading">
+				Future Investment Value Calculator
+			</div>
+
+			<div id="subheading">
+				See Why Investing Regularly is So Important
+			</div>
+		</div>
+
+		<div class="content">
+			<!-- Order form -->
+			<div class="frame" id="frame1">
+				<h3>Define Your Investment Plan Here</h3>
+				
+				<hr /><br />
+
+				<form name="orderform">
+					<div class="field">
+						Investor's Name
+						<input id="namefld" name="namefld" type="text">
+					</div>
+
+					<br />
+
+					<div class="field">
+						Years Until Retirement
+						<input id="yearsfld" name="yearsfld" type="text">
+					</div>
+
+					<br />
+
+					<div class="field">
+						Expected Monthly Investment
+						<input id="investfld" name="investfld" type="text">
+					</div>
+
+					<div class="field">
+						Estimated Annual Interest Rate
+						<input id="ratefld" name="ratefld" type="text">
+					</div>
+
+					<br />
+
+					<div class="field">
+						<input id="calculatebtn" value="Display Future Values" type="button">
+					</div>
+
+					<hr /><br />
+
+					<div class="field">
+						Your Investment Value at Retirement
+						<input id="totalfld" name="totalfld" disabled=true type="text">
+					</div>
+
+					<br /><hr /><br />
+
+					<div class="field">
+						<input id="savemorebtn" value="Save $20 More!" type="button">
+					</div>
+				</form>
+			</div>
+
+			<!-- Detailed investment results -->
+			<div class="frame" id="frame2">
+				<h3>Investment Performance Over Time</h3>
+				
+				<hr />
+
+				
+				<!-- Return figures over the intervening years -->
+				<section id="performancefld">
+				</section>
+
+				<hr /><br />
+			</div>
+		</div>
+	</body>
+</html>

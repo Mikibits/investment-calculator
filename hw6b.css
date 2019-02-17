@@ -1,0 +1,123 @@
+/*
+		CS-133S-01 - JavaScript
+		Miki Marshall
+		02/28/2012
+		"On My Own" Project
+		
+		Future Investment Value Calculator.
+*/
+
+body 
+{
+  font: 16px arial;
+  color: black;
+  text-align: center;
+  background-color: lightgreen;
+}
+
+hr
+{
+  width: 90%;
+}
+
+pre
+{
+  text-align: left;
+  padding-left: 70px;
+}
+
+.content
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+div.frame
+{
+  background-color: lightgreen;
+  border-style: solid;
+  border-color: darkgreen;
+  border-width: 4px;
+  border-radius: 1em 4em 1em 4em;
+  -moz-border-radius: 1em 4em 1em 4em;
+}
+
+div#topframe
+{
+  background-color: green;
+  border-color: green;
+  display: block;
+  clear: both;
+  width: 700px;
+  color: white;
+  margin: 10px;
+  padding: 5px;
+}
+
+div#frame1 
+{
+  display: block;
+  float: left;
+  background-color: white;
+  padding: 15px;
+  margin: 10px;
+  width: 400px;
+  opacity: 0.9;
+}
+
+div#frame2 
+{
+  display: block;
+  float: left;
+  background-color: white;
+  text-align: center;
+  padding: 15px;
+  margin: 10px;
+  width: 400px;
+  float: left;
+  opacity: 0.9;
+}
+
+div#heading 
+{
+  font: 28px "maiandra gd";
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+div#subheading 
+{
+  font: 18px arial;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+div.field 
+{
+  margin-bottom: 5px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+div.option 
+{
+  margin-bottom: 5px;
+  text-align: right;
+}
+
+form input#namefield
+{
+	color: black;
+	font-weight: bold;
+	text-align: left;
+}
+
+form input
+{
+	color: black;
+	font-weight: bold;
+	text-align: right;
+}
